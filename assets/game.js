@@ -1,17 +1,19 @@
-var yourScore = document.getElementById("yourScore");
+var yourScore = $("#yourScore");
 //var yourScore = getElementById(yellow, green, red, blue.onclick(math.sum));
-yourScore.textContent = 0;
-var Target = document.getElementById("Target");
-Target.innerHTML = getRandomValue(10, 4);
+var scoreCurrent = 0;
+var Target = $("#Target");
+var scoreTarget = getRandomValue(10, 4);
+Target.text(scoreTarget);
 
 function addToScore(val) {
   var numberToAdd = parseInt(val);
-  var currentScore = parseInt(yourScore.innerHTML);
-  yourScore.innerHTML = numberToAdd + currentScore;
+ scoreCurrent += val;
+  
+  yourScore.text(scoreCurrent);
 }
 
-var yellow = document.getElementById("yellow");
-console.log(red.value);
+var yellow = $("#yellow");
+console.log(yellow.value);
 
 var green = document.getElementById("green");
 //console.log(green.value);
