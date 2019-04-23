@@ -1,0 +1,62 @@
+.diamond {
+    width: 90px;
+    height: 90px;
+    background: black;
+    margin: 0;
+    padding: 0;
+/* Rotate */
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(60deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 60px 0 10px 310px;
+}
+
+#yellow {
+    color: #fff;
+    background-color: yellow;
+    border-color: yellow;
+}
+#green {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+#red {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+#blue {
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
+
+#yellow {
+    color: #fff;
+    background-color: yellow;
+    border-color: yellow;
+}
+#green {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+#red {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+#blue {
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
